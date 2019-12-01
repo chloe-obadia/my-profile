@@ -1,0 +1,116 @@
+body {
+	background-color: #6ba8a9;
+	color: #222831;
+	font-size: 15px;
+	line-height: 1.6;
+	font-family: 'Baskervville', serif;
+}
+
+h1 {
+	color: #222831;
+	font-weight: 100;
+	letter-spacing: 7px;
+	font-size: 24px;
+	font-family: 'Calistoga', cursive;
+}
+
+
+h2 {
+
+	font-weight: 700;
+	letter-spacing: 2px;
+	font-size: 18px;
+	color: #1d4d4f;
+	font-family: 'Ibarra Real Nova', serif;
+}
+
+a {
+	text-decoration: none;
+	color: #1d4d4f;
+	font-weight: bold;
+	transition: color 0.5s ease;
+}
+
+a:hover {
+	color: #29a19c;
+
+}
+
+p {
+	text-justify: justify;
+}
+
+
+.img-circle {
+	width: 150px;
+	border-radius: 50%
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-light {
+	display: block;
+	background: #f5eeee;                         
+	padding: 20px;
+	margin: 25px 0px;                        
+	border-radius: 4px;                      
+	box-shadow: 0 10px 30px #4a7475;
+	text-align: center;
+}
+
+.btn-brown {
+	background-color: #bcb9b9;
+	color : #4c4438;
+	padding: 10px 13px;
+	border-radius: 4px;
+
+}
+
+.btn-brown:hover {
+	background-color: #1d4d4f;
+	color: #63b2b5;
+
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #c7c2c2;
+	transition: color 0.5s ease;
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: #8f8888;
+}
+
+#introduction p {
+	margin-bottom: 25px;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width:600px; 
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width:400px; 
+	}
+}
+
+
